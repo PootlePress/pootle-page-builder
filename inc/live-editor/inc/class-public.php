@@ -39,11 +39,10 @@ class Pootle_Page_Builder_Live_Editor_Public {
 	private $nonce;
 	private $ipad = false;
 	private $pi;
-
-	public string $token;
-	public string $url;
-	public string $path;
-	public string $version;
+	private $token;
+	private $url;
+	private $path;
+	private $version;
 
 
 	/**

@@ -18,10 +18,10 @@ class Pootle_Page_Builder_Pro_Public{
 
 	private $css = '';
 
-	public string $token;
-	public string $url;
-	public string $path;
-	public string $version;
+	private $token;
+	private $url;
+	private $path;
+	private $version;
 
 	/**
 	 * Main Pootle Page Builder Pro Instance

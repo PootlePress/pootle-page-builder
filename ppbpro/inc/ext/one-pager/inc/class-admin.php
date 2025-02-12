@@ -11,10 +11,10 @@ class pootle_page_builder_one_pager_Admin{
 	/** @var pootle_page_builder_one_pager_Admin Instance */
 	private static $_instance = null;
 
-	public string $token;
-	public string $url;
-	public string $path;
-	public string $version;
+	private $token;
+	private $url;
+	private $path;
+	private $version;
 
 	/**
 	 * Main pootle page builder one pager Instance

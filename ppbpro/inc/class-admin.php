@@ -15,10 +15,10 @@ class Pootle_Page_Builder_Pro_Admin {
 	 */
 	private static $_instance = null;
 
-	public string $token;
-	public string $url;
-	public string $path;
-	public string $version;
+	private $token;
+	private $url;
+	private $path;
+	private $version;
 
 	/**
 	 * Main Pootle Page Builder Pro Instance

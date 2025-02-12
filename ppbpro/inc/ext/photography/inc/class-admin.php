@@ -15,10 +15,10 @@ class page_builder_photo_addon_Admin{
 	 */
 	private static $_instance = null;
 
-	public string $token;
-	public string $url;
-	public string $path;
-	public string $version;
+	private $token;
+	private $url;
+	private $path;
+	private $version;
 
 	/**
 	 * Main Pootle page builder Photography add on Instance

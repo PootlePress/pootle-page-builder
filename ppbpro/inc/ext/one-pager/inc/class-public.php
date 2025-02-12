@@ -23,10 +23,10 @@ class pootle_page_builder_one_pager_Public{
 	 */
 	private $sections = array();
 
-	public string $token;
-	public string $url;
-	public string $path;
-	public string $version;
+	private $token;
+	private $url;
+	private $path;
+	private $version;
 
 	/**
 	 * Main pootle page builder one pager Instance
